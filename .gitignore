@@ -1,0 +1,18 @@
+# Virtual environments
+.venv/
+.venv_bak/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated output: detection snapshots
+bird_snaps/
+snaps/
+
+# Local editor/agent settings
+.claude/settings.local.json
+
+# Runtime FIFO
+.lgd-nfy0
+.claude/settings.local.json.tmp.*
